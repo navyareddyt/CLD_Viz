@@ -27,7 +27,7 @@ df_social_media = pd.DataFrame.from_dict(social_media_dict, orient='index')
 
 st.set_page_config(layout="wide")
 
-image_path = 'banner.jpeg'
+image_path = 'Banner.jpeg'
 st.image(image_path, use_column_width='always')
 
 st.write("### **The Comparative Legislators Database: Exploring Political Representation**")
